@@ -1,0 +1,66 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0;
+  font-family: 'Courier New', Courier, monospace
+  ;
+}
+
+.app{
+  text-align: center;
+  width: 100%;
+}
+
+.card{
+  width: fit-content;
+  background:white;
+  box-shadow: 3px 3px 310px rgb(0, 2, 7);
+  padding:20px;
+  margin: 0 auto;
+  border-radius: 9px;
+ 
+
+}
+.container{ 
+  max-width:576px;
+  margin:0 auto
+
+}
+
+.quote{
+  width: 100%;
+  padding: 0 5px;
+
+}
+
+.author{
+  text-align:end;
+  font-style:italic;
+  margin:20px 0 6px
+}
+button{
+  border-radius: 15px;
+  border: none;
+  padding: 10px;
+}
+
+p{
+  font-size: 25px;
+  text-shadow: 1px 1px #888;
+  font-weight: bold;
+}
+.icon{
+  font-size: 30px;
+  
+}
+.icon2{
+  font-size: 50px;
+}
